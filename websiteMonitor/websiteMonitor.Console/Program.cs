@@ -33,6 +33,7 @@ namespace websiteMonitor.Console
             myTimer.Interval = 5000;
             // And start it        
             myTimer.Enabled = true;
+           
 
 
 
@@ -54,14 +55,15 @@ namespace websiteMonitor.Console
         private static void ringMonitor(object source, ElapsedEventArgs e)
         {
 
+           
 
             var service = new websiteService();
             IWebDriver driver = new PhantomJSDriver();
             driver.Navigate().GoToUrl("https://betterthandiamond.com/amora-gem-search.php");
-          //driver.Navigate().GoToUrl("http://weddingmonitor.jeffwarddevelopment.com/");
+            //driver.Navigate().GoToUrl("http://weddingmonitor.jeffwarddevelopment.com/");
             try
             {
-                var exists = driver.FindElement(By.ClassName("notificationlink")); 
+                var exists = driver.FindElement(By.ClassName("notificationlink"));
                 var exists2 = driver.FindElement(By.ClassName("notFound"));
                 {
                     System.Console.Clear();
@@ -69,13 +71,19 @@ namespace websiteMonitor.Console
                     var key2 = "NO RESULTS";
                     if (exists.Text == key && exists2.Text == key2)
                     {
-                        System.Console.WriteLine("This is Here! MATCH!");
+                        System.Console.Clear();
+
+
+                        System.Console.WriteLine("Matching... Ring out of stock");
+                        
                     }
                     else
                     {
-                        System.Console.WriteLine("NOT FOUND!");
-                        service.sendSMS();
+                        System.Console.Clear();
 
+                        System.Console.WriteLine("NOT FOUND! Ring in stock!");
+                        service.sendSMS();
+                        Environment.Exit(0);
                     }
                     driver.Close();
                     System.Console.ReadLine();
