@@ -32,7 +32,8 @@ namespace websiteMonitor.Console.Services
             try
             {
                // var call = client.InitiateOutboundCall(options);
-                client.SendMessage(FromPhone, ToPhone, "Brooklyn! An Amora Gem is in stock! Go check it out :)");
+            client.SendMessage(FromPhone, ToPhone, "Brooklyn! An Amora Gem is in stock! Go check it out :)");
+
                 return true;
             }
             catch (Exception)

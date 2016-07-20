@@ -24,7 +24,7 @@ namespace websiteMonitor.Console
     {
         static void Main(string[] args)
         {
-
+            
             // Create a timer
             var myTimer = new System.Timers.Timer();
             // Tell the timer what to do when it elapses
@@ -36,7 +36,7 @@ namespace websiteMonitor.Console
            
             
 
-
+            
 
             System.Console.ReadLine();
 
@@ -54,9 +54,6 @@ namespace websiteMonitor.Console
         // Implement a call with the right signature for events going off
         private static void ringMonitor(object source, ElapsedEventArgs e)
         {
-
-           
-
             var service = new websiteService();
             IWebDriver driver = new PhantomJSDriver();
             driver.Navigate().GoToUrl("https://betterthandiamond.com/amora-gem-search.php");
@@ -72,10 +69,12 @@ namespace websiteMonitor.Console
                     if (exists.Text == key && exists2.Text == key2)
                     {
                         System.Console.Clear();
+
                         service.sendSMS();
 
                         System.Console.WriteLine("Matching... Ring out of stock");
                         
+
                     }
                     else
                     {
