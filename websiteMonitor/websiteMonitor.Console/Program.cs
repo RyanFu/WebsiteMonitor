@@ -11,8 +11,7 @@ namespace websiteMonitor.Console
         static void Main(string[] args)
         {
 
-
-
+            //http://stackoverflow.com/questions/1189364/reading-settings-from-app-config-or-web-config-in-net
 
 
         }
