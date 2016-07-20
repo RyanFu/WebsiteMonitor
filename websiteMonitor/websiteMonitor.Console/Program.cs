@@ -29,12 +29,12 @@ namespace websiteMonitor.Console
             var myTimer = new System.Timers.Timer();
             // Tell the timer what to do when it elapses
             myTimer.Elapsed += new ElapsedEventHandler(ringMonitor);
-            // Set it to go off every five seconds
-            myTimer.Interval = 5000;
+            // Set it to go off every 60 seconds
+            myTimer.Interval = 60000;
             // And start it        
             myTimer.Enabled = true;
            
-
+            
 
 
 
@@ -72,7 +72,7 @@ namespace websiteMonitor.Console
                     if (exists.Text == key && exists2.Text == key2)
                     {
                         System.Console.Clear();
-
+                        service.sendSMS();
 
                         System.Console.WriteLine("Matching... Ring out of stock");
                         
