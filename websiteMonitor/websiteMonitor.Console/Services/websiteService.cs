@@ -33,7 +33,7 @@ namespace websiteMonitor.Console.Services
             try
             {
                // var call = client.InitiateOutboundCall(options);
-                client.SendMessage(options.From, options.To, "TEST");
+                client.SendMessage(options.From, options.To, "An Amora Gem is in stock!!!!");
                 return true;
             }
             catch (Exception)
