@@ -1,1 +1,16 @@
 C:\Dev\utils\websiteMonitor\websiteMonitor\websiteMonitor.Console\bin\Debug\websiteMonitor.Console.exe.config
+C:\Dev\utils\websiteMonitor\websiteMonitor\websiteMonitor.Console\bin\Debug\websiteMonitor.Console.exe
+C:\Dev\utils\websiteMonitor\websiteMonitor\websiteMonitor.Console\bin\Debug\websiteMonitor.Console.pdb
+C:\Dev\utils\websiteMonitor\websiteMonitor\websiteMonitor.Console\obj\Debug\websiteMonitor.Console.csprojResolveAssemblyReference.cache
+C:\Dev\utils\websiteMonitor\websiteMonitor\websiteMonitor.Console\obj\Debug\websiteMonitor.Console.exe
+C:\Dev\utils\websiteMonitor\websiteMonitor\websiteMonitor.Console\obj\Debug\websiteMonitor.Console.pdb
+C:\Dev\utils\websiteMonitor\websiteMonitor\websiteMonitor.Console\bin\Debug\WebDriver.dll
+C:\Dev\utils\websiteMonitor\websiteMonitor\websiteMonitor.Console\bin\Debug\WebDriver.xml
+C:\Dev\utils\websiteMonitor\websiteMonitor\websiteMonitor.Console\obj\Debug\websiteMonitor.Console.csproj.ResolveComReference.cache
+C:\Dev\utils\websiteMonitor\websiteMonitor\websiteMonitor.Console\bin\Debug\phantomjs.exe
+C:\Dev\utils\websiteMonitor\websiteMonitor\websiteMonitor.Console\bin\Debug\phantomjs-license.txt
+C:\Dev\utils\websiteMonitor\websiteMonitor\websiteMonitor.Console\bin\Debug\RestSharp.dll
+C:\Dev\utils\websiteMonitor\websiteMonitor\websiteMonitor.Console\bin\Debug\Twilio.Api.dll
+C:\Dev\utils\websiteMonitor\websiteMonitor\websiteMonitor.Console\bin\Debug\RestSharp.xml
+C:\Dev\utils\websiteMonitor\websiteMonitor\websiteMonitor.Console\bin\Debug\Twilio.Api.pdb
+C:\Dev\utils\websiteMonitor\websiteMonitor\websiteMonitor.Console\bin\Debug\Twilio.Api.xml
