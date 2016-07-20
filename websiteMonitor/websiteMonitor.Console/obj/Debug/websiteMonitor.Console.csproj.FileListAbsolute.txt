@@ -1,0 +1,1 @@
+C:\Dev\utils\websiteMonitor\websiteMonitor\websiteMonitor.Console\bin\Debug\websiteMonitor.Console.exe.config
