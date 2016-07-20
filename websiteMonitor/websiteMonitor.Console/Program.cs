@@ -80,7 +80,7 @@ namespace websiteMonitor.Console
 
                         System.Console.WriteLine("NOT FOUND! Ring in stock!");
                         service.sendSMS();
-                        
+                        Environment.Exit(0);
                     }
                     driver.Close();
                     System.Console.ReadLine();
