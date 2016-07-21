@@ -76,7 +76,7 @@ namespace websiteMonitor.Console
                     else
                     {
                         System.Console.Clear();
-
+                        service.sendSMS();
                         System.Console.WriteLine("NOT FOUND! Ring in stock!");
                         
                         Environment.Exit(0);
