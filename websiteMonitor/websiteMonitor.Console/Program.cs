@@ -69,9 +69,6 @@ namespace websiteMonitor.Console
                     if (exists.Text == key && exists2.Text == key2)
                     {
                         System.Console.Clear();
-
-                        service.sendSMS();
-
                         System.Console.WriteLine("Matching... Ring out of stock");
                         
 
@@ -81,7 +78,7 @@ namespace websiteMonitor.Console
                         System.Console.Clear();
 
                         System.Console.WriteLine("NOT FOUND! Ring in stock!");
-                        service.sendSMS();
+                        
                         Environment.Exit(0);
                     }
                     driver.Close();
