@@ -1,3 +1,28 @@
 7/30/2016 12:18:08 AM : Ring out of stock as of 7/30/2016 12:18:08 AM
 7/30/2016 12:19:08 AM : Ring out of stock as of 7/30/2016 12:19:08 AM
 7/30/2016 12:19:18 AM : WebMonitor Service stopped.
+7/30/2016 12:34:59 AM : WebMonitor Service Started
+7/30/2016 12:36:03 AM : (We are sold out! Please click here to be notified when we restock...)NO RESULTS Ring out of stock as of 7/30/2016 12:36:03 AM
+7/30/2016 12:37:02 AM : (We are sold out! Please click here to be notified when we restock...)NO RESULTS Ring out of stock as of 7/30/2016 12:37:02 AM
+7/30/2016 12:38:02 AM : (We are sold out! Please click here to be notified when we restock...)NO RESULTS Ring out of stock as of 7/30/2016 12:38:02 AM
+7/30/2016 12:39:02 AM : (We are sold out! Please click here to be notified when we restock...)NO RESULTS Ring out of stock as of 7/30/2016 12:39:02 AM
+7/30/2016 12:40:02 AM : (We are sold out! Please click here to be notified when we restock...)NO RESULTS Ring out of stock as of 7/30/2016 12:40:02 AM
+7/30/2016 12:41:02 AM : (We are sold out! Please click here to be notified when we restock...)NO RESULTS Ring out of stock as of 7/30/2016 12:41:02 AM
+7/30/2016 12:42:03 AM : (We are sold out! Please click here to be notified when we restock...)NO RESULTS Ring out of stock as of 7/30/2016 12:42:03 AM
+7/30/2016 12:43:02 AM : (We are sold out! Please click here to be notified when we restock...)NO RESULTS Ring out of stock as of 7/30/2016 12:43:02 AM
+7/30/2016 12:44:02 AM : (We are sold out! Please click here to be notified when we restock...)NO RESULTS Ring out of stock as of 7/30/2016 12:44:02 AM
+7/30/2016 12:45:01 AM : (We are sold out! Please click here to be notified when we restock...)NO RESULTS Ring out of stock as of 7/30/2016 12:45:01 AM
+7/30/2016 12:46:02 AM : (We are sold out! Please click here to be notified when we restock...)NO RESULTS Ring out of stock as of 7/30/2016 12:46:02 AM
+7/30/2016 12:47:02 AM : (We are sold out! Please click here to be notified when we restock...)NO RESULTS Ring out of stock as of 7/30/2016 12:47:02 AM
+7/30/2016 12:48:02 AM : (We are sold out! Please click here to be notified when we restock...)NO RESULTS Ring out of stock as of 7/30/2016 12:48:02 AM
+7/30/2016 12:49:02 AM : (We are sold out! Please click here to be notified when we restock...)NO RESULTS Ring out of stock as of 7/30/2016 12:49:02 AM
+7/30/2016 12:50:02 AM : (We are sold out! Please click here to be notified when we restock...)NO RESULTS Ring out of stock as of 7/30/2016 12:50:02 AM
+7/30/2016 12:51:02 AM : (We are sold out! Please click here to be notified when we restock...)NO RESULTS Ring out of stock as of 7/30/2016 12:51:02 AM
+7/30/2016 12:52:03 AM : (We are sold out! Please click here to be notified when we restock...)NO RESULTS Ring out of stock as of 7/30/2016 12:52:03 AM
+7/30/2016 12:53:12 AM : (We are sold out! Please click here to be notified when we restock...)NO RESULTS Ring out of stock as of 7/30/2016 12:53:12 AM
+7/30/2016 12:54:02 AM : (We are sold out! Please click here to be notified when we restock...)NO RESULTS Ring out of stock as of 7/30/2016 12:54:02 AM
+7/30/2016 12:55:02 AM : (We are sold out! Please click here to be notified when we restock...)NO RESULTS Ring out of stock as of 7/30/2016 12:55:02 AM
+7/30/2016 12:56:02 AM : (We are sold out! Please click here to be notified when we restock...)NO RESULTS Ring out of stock as of 7/30/2016 12:56:02 AM
+7/30/2016 12:57:03 AM : (We are sold out! Please click here to be notified when we restock...)NO RESULTS Ring out of stock as of 7/30/2016 12:57:03 AM
+7/30/2016 12:57:51 AM : WebMonitor Service stopped.
+7/30/2016 12:58:52 AM : WebMonitor Service Started

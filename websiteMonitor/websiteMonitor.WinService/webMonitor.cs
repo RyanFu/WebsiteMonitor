@@ -26,6 +26,9 @@ namespace websiteMonitor.WinService
 
         protected override void OnStart(string[] args)
         {
+            var service = new websiteService();
+
+            service.sendStartSMS();
             timer1 = new Timer();
             this.timer1.Interval = 60000;  //Every 60 seconds
             this.timer1.Elapsed += new System.Timers.ElapsedEventHandler(this.timer1_tick);
@@ -55,7 +58,7 @@ namespace websiteMonitor.WinService
                         var key2 = "NO RESULTS";
                         if (exists.Text == key && exists2.Text == key2)
                         {
-                            loggingService.WriteErrorLog(exists.Text + exists2.Text+"Ring out of stock as of " + DateTime.Now.ToString());
+                            loggingService.WriteErrorLog(exists.Text + exists2.Text+" Ring out of stock as of " + DateTime.Now.ToString());
 
 
                         }
@@ -73,7 +76,7 @@ namespace websiteMonitor.WinService
                 catch (Exception error)
                 {
                     loggingService.WriteErrorLog("Error caught! " + DateTime.Now.ToString() + "Message: " + error.ToString());
-
+                    service.sendErrorSMS();
                     driver.Close();
 
                     driver.Quit();
