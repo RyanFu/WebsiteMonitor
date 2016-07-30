@@ -65,3 +65,24 @@ Affected parameters are:
    logtoconsole = 
    logfile = C:\Dev\github\websiteMonitor\WebsiteMonitor\websiteMonitor\websiteMonitor.WinService\bin\Debug\websiteMonitor.WinService.InstallLog
    assemblypath = C:\Dev\github\websiteMonitor\WebsiteMonitor\websiteMonitor\websiteMonitor.WinService\bin\Debug\websiteMonitor.WinService.exe
+Uninstalling assembly 'C:\Dev\github\websiteMonitor\WebsiteMonitor\websiteMonitor\websiteMonitor.WinService\bin\Debug\websiteMonitor.WinService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Dev\github\websiteMonitor\WebsiteMonitor\websiteMonitor\websiteMonitor.WinService\bin\Debug\websiteMonitor.WinService.InstallLog
+   assemblypath = C:\Dev\github\websiteMonitor\WebsiteMonitor\websiteMonitor\websiteMonitor.WinService\bin\Debug\websiteMonitor.WinService.exe
+Removing EventLog source Website Montor Service.
+Service Website Montor Service is being removed from the system...
+Service Website Montor Service was successfully removed from the system.
+Installing assembly 'C:\Dev\github\websiteMonitor\WebsiteMonitor\websiteMonitor\websiteMonitor.WinService\bin\Debug\websiteMonitor.WinService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Dev\github\websiteMonitor\WebsiteMonitor\websiteMonitor\websiteMonitor.WinService\bin\Debug\websiteMonitor.WinService.InstallLog
+   assemblypath = C:\Dev\github\websiteMonitor\WebsiteMonitor\websiteMonitor\websiteMonitor.WinService\bin\Debug\websiteMonitor.WinService.exe
+Installing service Website Montor Service...
+Service Website Montor Service has been successfully installed.
+Creating EventLog source Website Montor Service in log Application...
+Committing assembly 'C:\Dev\github\websiteMonitor\WebsiteMonitor\websiteMonitor\websiteMonitor.WinService\bin\Debug\websiteMonitor.WinService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Dev\github\websiteMonitor\WebsiteMonitor\websiteMonitor\websiteMonitor.WinService\bin\Debug\websiteMonitor.WinService.InstallLog
+   assemblypath = C:\Dev\github\websiteMonitor\WebsiteMonitor\websiteMonitor\websiteMonitor.WinService\bin\Debug\websiteMonitor.WinService.exe

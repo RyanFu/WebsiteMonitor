@@ -65,8 +65,9 @@
     <Compile Include="ProjectInstaller.Designer.cs">
       <DependentUpon>ProjectInstaller.cs</DependentUpon>
     </Compile>
+    <Compile Include="Service\IWebsiteService.cs" />
     <Compile Include="Service\loggingService.cs" />
-    <Compile Include="Service\websiteService.cs" />
+    <Compile Include="Service\WebsiteService.cs" />
     <Compile Include="webMonitor.cs">
       <SubType>Component</SubType>
     </Compile>

@@ -7,7 +7,7 @@ using System.IO;
 
 namespace websiteMonitor.WinService.Service
 {
-    public static class loggingService
+    public static class LoggingService
     {
 
 
