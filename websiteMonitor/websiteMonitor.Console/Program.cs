@@ -23,21 +23,6 @@ namespace websiteMonitor.Console
 {
     class Program
     {
-        public interface IProcessor
-        {
-            void Run();
-        }
-
-        public interface IWorker
-        {
-            void DoWork();
-        }
-
-        public interface ILogger
-        {
-            void Log(string logDetails, int level);
-        }
-
         static void Main(string[] args)
         {
             //Window Size
@@ -109,8 +94,8 @@ namespace websiteMonitor.Console
 
                             Environment.Exit(0);
                         }
-                        driver.Quit();
                         driver.Close();
+                        driver.Quit();
                         System.Console.ReadLine();
                     }
                 }
@@ -118,8 +103,9 @@ namespace websiteMonitor.Console
                 {
 
                     System.Console.WriteLine("Not found");
-                    driver.Quit();
                     driver.Close();
+
+                    driver.Quit();
                     System.Console.ReadLine();
                 }
 
