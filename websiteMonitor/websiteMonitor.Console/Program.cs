@@ -109,6 +109,7 @@ namespace websiteMonitor.Console
 
                             Environment.Exit(0);
                         }
+                        driver.Quit();
                         driver.Close();
                         System.Console.ReadLine();
                     }
@@ -117,8 +118,8 @@ namespace websiteMonitor.Console
                 {
 
                     System.Console.WriteLine("Not found");
+                    driver.Quit();
                     driver.Close();
-
                     System.Console.ReadLine();
                 }
 
@@ -129,4 +130,4 @@ namespace websiteMonitor.Console
             System.Console.ReadLine();
         }
     }
-}
+}  
