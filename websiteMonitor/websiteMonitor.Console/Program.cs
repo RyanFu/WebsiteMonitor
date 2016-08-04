@@ -27,7 +27,7 @@ namespace websiteMonitor.Console
         {
             //Window Size
 
-
+            ringMonitor();
             System.Console.WriteLine("System Starting...");
             // Create a timer
             var myTimer = new System.Timers.Timer();
@@ -35,7 +35,7 @@ namespace websiteMonitor.Console
             myTimer.Elapsed += new ElapsedEventHandler(ringMonitor);
 
             // Set it to go off every 60 seconds
-            myTimer.Interval = 60000;
+            myTimer.Interval = 5000;
             // And start it        
             myTimer.Enabled = true;
             myTimer.AutoReset = true;
@@ -61,7 +61,58 @@ namespace websiteMonitor.Console
 
 
 
+        private static void ringMonitor()
+        {
+            var service = new websiteService();
+            using (var driver = new PhantomJSDriver())
+            {
+                driver.Navigate().GoToUrl("https://betterthandiamond.com/amora-gem-search.php");
+                //driver.Navigate().GoToUrl("http://weddingmonitor.jeffwarddevelopment.com/");
+                try
+                {
+                    var exists = driver.FindElement(By.ClassName("notificationlink"));
+                    var exists2 = driver.FindElement(By.ClassName("notFound"));
+                    {
+                        System.Console.Clear();
+                        var key = "(We are sold out! Please click here to be notified when we restock...)";
+                        var key2 = "NO RESULTS";
+                        if (exists.Text == key && exists2.Text == key2)
+                        {
+                            System.Console.Clear();
+                            System.Console.WriteLine("Matching... Ring out of stock");
 
+
+                        }
+                        else
+                        {
+                            System.Console.Clear();
+                            service.sendSMS();
+                            System.Console.WriteLine("Ring in stock!");
+
+                            Environment.Exit(0);
+                        }
+                        driver.Close();
+                        driver.Quit();
+                        System.Console.ReadLine();
+                    }
+                }
+                catch (Exception)
+                {
+                    service.sendSMS();
+
+                    System.Console.WriteLine("Not found");
+                    driver.Close();
+
+                    driver.Quit();
+                    System.Console.ReadLine();
+                }
+
+
+
+                driver.Close();
+            }
+            System.Console.ReadLine();
+        }
 
         // Implement a call with the right signature for events going off
         private static void ringMonitor(object source, ElapsedEventArgs e)
@@ -90,7 +141,7 @@ namespace websiteMonitor.Console
                         {
                             System.Console.Clear();
                             service.sendSMS();
-                            System.Console.WriteLine("NOT FOUND! Ring in stock!");
+                            System.Console.WriteLine("Ring in stock!");
 
                             Environment.Exit(0);
                         }

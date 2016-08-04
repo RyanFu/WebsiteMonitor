@@ -1,6 +1,6 @@
 ﻿namespace websiteMonitor.WinService
 {
-    partial class webMonitor
+    partial class WebMonitor
     {
         /// <summary> 
         /// Required designer variable.

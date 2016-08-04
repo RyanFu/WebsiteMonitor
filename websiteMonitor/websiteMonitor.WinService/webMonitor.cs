@@ -15,12 +15,13 @@ using OpenQA.Selenium.PhantomJS;
 
 namespace websiteMonitor.WinService
 {
-    public partial class webMonitor : ServiceBase
+    //Make sure to test it!
+    public partial class WebMonitor : ServiceBase
     {
         private Timer timer1 = null;
 
 
-        public webMonitor()
+        public WebMonitor()
         {
             InitializeComponent();
         }
@@ -31,7 +32,8 @@ namespace websiteMonitor.WinService
 
             service.sendStartSMS();
             timer1 = new Timer();
-            this.timer1.Interval = 60000;  //Every 60 seconds
+            this.timer1.Interval = 900000;  //Every 15 minutes
+           // this.timer1.Interval = 60000;  //Every 60 seconds
             this.timer1.Elapsed += new System.Timers.ElapsedEventHandler(this.timer1_tick);
             timer1.Enabled = true;
             LoggingService.WriteErrorLog("WebMonitor Service Started");
@@ -43,7 +45,7 @@ namespace websiteMonitor.WinService
             LoggingService.WriteErrorLog("WebMonitor Service stopped.");
         }
 
-        //Call this method every 60 seconds.
+        //Call this method every X seconds.
         private void timer1_tick(object sender, ElapsedEventArgs e)
         {
             IWebsiteService service = new WebsiteService();

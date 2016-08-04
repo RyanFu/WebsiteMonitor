@@ -21,7 +21,7 @@ namespace websiteMonitor.WinService
             ServiceBase[] ServicesToRun;
             ServicesToRun = new ServiceBase[]
             {
-                new webMonitor()
+                new WebMonitor()
             };
             ServiceBase.Run(ServicesToRun);
         }
