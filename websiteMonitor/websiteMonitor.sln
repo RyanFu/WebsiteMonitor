@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.23107.0
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "websiteMonitor.Console", "websiteMonitor.Console\websiteMonitor.Console.csproj", "{F641DA5F-7196-487B-A08B-22B951022CA9}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "websiteMonitor.WinService", "websiteMonitor.WinService\websiteMonitor.WinService.csproj", "{52666AE3-1E05-46C6-BF6A-DABE51D99793}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "websiteMonitor.Api", "websiteMonitor.Api\websiteMonitor.Api.csproj", "{19CBA869-77BD-4F2F-8D41-552861E5FE36}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{52666AE3-1E05-46C6-BF6A-DABE51D99793}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{52666AE3-1E05-46C6-BF6A-DABE51D99793}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{52666AE3-1E05-46C6-BF6A-DABE51D99793}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19CBA869-77BD-4F2F-8D41-552861E5FE36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19CBA869-77BD-4F2F-8D41-552861E5FE36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19CBA869-77BD-4F2F-8D41-552861E5FE36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19CBA869-77BD-4F2F-8D41-552861E5FE36}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

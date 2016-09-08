@@ -32,7 +32,7 @@ namespace websiteMonitor.WinService
 
             service.sendStartSMS();
             timer1 = new Timer();
-            this.timer1.Interval = 900000;  //Every 15 minutes
+            this.timer1.Interval = 27000000;  //Every 15 minutes
            // this.timer1.Interval = 60000;  //Every 60 seconds
             this.timer1.Elapsed += new System.Timers.ElapsedEventHandler(this.timer1_tick);
             timer1.Enabled = true;
