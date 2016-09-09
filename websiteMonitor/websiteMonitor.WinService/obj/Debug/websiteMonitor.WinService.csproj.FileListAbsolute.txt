@@ -1,6 +1,3 @@
-C:\Dev\github\websiteMonitor\WebsiteMonitor\websiteMonitor\websiteMonitor.WinService\obj\Debug\websiteMonitor.WinService.csprojResolveAssemblyReference.cache
-C:\Dev\github\websiteMonitor\WebsiteMonitor\websiteMonitor\websiteMonitor.WinService\obj\Debug\websiteMonitor.WinService.ProjectInstaller.resources
-C:\Dev\github\websiteMonitor\WebsiteMonitor\websiteMonitor\websiteMonitor.WinService\obj\Debug\websiteMonitor.WinService.csproj.GenerateResource.Cache
 C:\Dev\github\websiteMonitor\WebsiteMonitor\websiteMonitor\websiteMonitor.WinService\bin\Debug\phantomjs.exe
 C:\Dev\github\websiteMonitor\WebsiteMonitor\websiteMonitor\websiteMonitor.WinService\bin\Debug\phantomjs-license.txt
 C:\Dev\github\websiteMonitor\WebsiteMonitor\websiteMonitor\websiteMonitor.WinService\bin\Debug\websiteMonitor.WinService.exe.config
@@ -13,5 +10,8 @@ C:\Dev\github\websiteMonitor\WebsiteMonitor\websiteMonitor\websiteMonitor.WinSer
 C:\Dev\github\websiteMonitor\WebsiteMonitor\websiteMonitor\websiteMonitor.WinService\bin\Debug\Twilio.Api.pdb
 C:\Dev\github\websiteMonitor\WebsiteMonitor\websiteMonitor\websiteMonitor.WinService\bin\Debug\Twilio.Api.xml
 C:\Dev\github\websiteMonitor\WebsiteMonitor\websiteMonitor\websiteMonitor.WinService\bin\Debug\WebDriver.xml
+C:\Dev\github\websiteMonitor\WebsiteMonitor\websiteMonitor\websiteMonitor.WinService\obj\Debug\websiteMonitor.WinService.ProjectInstaller.resources
+C:\Dev\github\websiteMonitor\WebsiteMonitor\websiteMonitor\websiteMonitor.WinService\obj\Debug\websiteMonitor.WinService.csproj.GenerateResource.Cache
 C:\Dev\github\websiteMonitor\WebsiteMonitor\websiteMonitor\websiteMonitor.WinService\obj\Debug\websiteMonitor.WinService.exe
 C:\Dev\github\websiteMonitor\WebsiteMonitor\websiteMonitor\websiteMonitor.WinService\obj\Debug\websiteMonitor.WinService.pdb
+C:\Dev\github\websiteMonitor\WebsiteMonitor\websiteMonitor\websiteMonitor.WinService\obj\Debug\websiteMonitor.WinService.csprojResolveAssemblyReference.cache

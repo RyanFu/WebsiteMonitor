@@ -1,12 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection;
 using System.Web.Http;
 using Autofac;
 using Autofac.Extras.Quartz;
 using Autofac.Integration.WebApi;
 using Quartz;
 using websiteMonitor.Api.ScheduledTasks;
+using Module = Autofac.Module;
 
 namespace websiteMonitor.Api
 {
@@ -48,3 +50,4 @@ namespace websiteMonitor.Api
             base.Load(builder);
         }
     }
+}
